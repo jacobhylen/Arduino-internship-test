@@ -128,3 +128,7 @@ void loop() { <br>
 }
 
 ## Conclusion  
+Now, if you are in an evenly lit room, when you approach your circuit from either of the LDRs, you will notice that the LEDs will react to you. Lighting up the relevant one as you get closer.
+![](./IMG/IMG-2248.jpg)
+![](./IMG/IMG-2249.jpg)
+This circuit by itself does not serve any singular purpose, but now you have learnt how to connect LDRs, and a way you can creatively use LDRs for something they were not intended to. We implore you to keep experimenting with the circuit, implement it into something else, swap the output, build it into a game, give an everyday item some personality. Create something new. 
