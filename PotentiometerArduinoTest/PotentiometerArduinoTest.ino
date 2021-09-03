@@ -12,8 +12,8 @@
  *
  */
 
-int potPin = A3;    // select the input pin for the potentiometer
-int potPin2 = A2;
+int LDRPin = A3;    // select the input pin for the potentiometer
+int LDRPin2 = A2;
 
 int ledPin = 10;   // select the pin for the LED
 int ledPin2 = 11;
@@ -28,10 +28,10 @@ void setup() {
 }
 
 void loop() {
-  val = analogRead(potPin);
+  val = analogRead(LDRPin);
   val = map(val, 0, 900, 0, 255);
 
-  val2 = analogRead(potPin2);
+  val2 = analogRead(LDRPin2);
   val2 = map(val2, 0, 900, 0, 255);
 
   Serial.println(val2);
