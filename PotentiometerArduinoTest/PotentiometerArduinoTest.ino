@@ -15,7 +15,7 @@
 int potPin = A3;    // select the input pin for the potentiometer
 int potPin2 = A2;
 
-int ledPin = 13;   // select the pin for the LED
+int ledPin = 10;   // select the pin for the LED
 int ledPin2 = 11;
 
 int val = 0;       // variable to store the value coming from the sensor
